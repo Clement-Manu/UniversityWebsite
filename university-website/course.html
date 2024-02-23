@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymou>
+    <link rel="apple-touch-icon" href="favicon.png"> 
+    <link rel="stylesheet" href="blob:https://fontawesome.com/e9bcbc07-4102-422f-ac31-3dece8089b17"> 
+    <link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/16cfc91dbe.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <div class="nav-links"    id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Courses</h1>               
+    </section>
+
+    <!------ Course ------>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores iure illum modi facere laudantium earum ex veritatis illo facilis.</p>
+        </div>
+    
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo hic, excepturi incidunt iure iste a tempora pariatur fugit reiciendis deleniti.</p>
+        </div>
+    
+        <div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi rerum sit at sapiente molestiae ipsum sint, quaerat sunt! Praesentium, sapiente.</p>
+          </div>
+    
+        </div>
+    
+    </section>
+
+<!-- facilities --><section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam iusto saepe hic optio fugit deleniti!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg"/>
+            <h3>World Class library</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam reiciendis rem qui atque quidem, vitae eveniet porro!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.jpg"/>
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora magnam perspiciatis a, quos deserunt.</p>
+        </div>
+        <div class="facilities-col"> 
+            <img src="images/cafeteria.jpg"/>
+            <h3>Tasty And Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ducimus possimus vero saepe esse ab?</p>
+        </div>
+    </div>
+</section>
+
+ 
+
+
+
+
+
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro harum quisquam <br>nemo explicabo ratione temporibus amet ab libero officiis velit!</p>
+    <div class="icons">
+        
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p>Made with <i class="fa-solid fa-heart"></i> By Foresight Tutorials</p>
+
+    </div>
+</section>
+
+
+
+<!-- javaScript for Toggle Menu -->
+
+<script>
+    var navLink = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+
+</script>
+
+
+
+
+</body>
+</html>
